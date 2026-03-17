@@ -1,0 +1,8 @@
+# IDE
+.idea/
+*.iml
+
+# 生成文件
+report.html
+__pycache__/
+*.pyc
