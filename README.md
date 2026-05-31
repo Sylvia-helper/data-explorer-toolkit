@@ -10,6 +10,7 @@
 **Data Explorer Toolkit** 是一个轻量级的 Python 工具包，能够自动读取 CSV/Excel 数据，一键生成包含统计摘要、缺失值分析、相关性矩阵和交互式可视化的 HTML 报告。
 
 本项目**不依赖任何公开数据集**，而是使用 `numpy` + `pandas` 自行构造了一套模拟数据（位于 `examples/sample_data.csv`），该数据模拟了**上海某商圈的数据运营场景**（包含客流量、促销活动、天气等字段），既能完整演示工具功能，又避免了数据合规问题。
+![首页](images/285af936ccca2db97e1cd18035847863.jpg)
 
 ## ✨ 功能特点
 
@@ -88,9 +89,9 @@ Plotly 图表支持鼠标悬停显示数值、框选缩放、图例筛选等交�
 📸 报告预览
 
 缺失值热力图 相关性矩阵 单变量分布图
-https://github.com/Sylvia-helper/data-explorer-toolkit/blob/main/images/4421d863fb14014fce97c1e7184890e6.jpg
-https://github.com/Sylvia-helper/data-explorer-toolkit/blob/main/images/6047c3682493439ff19cc503cc7d001b.jpg
-https://github.com/Sylvia-helper/data-explorer-toolkit/blob/main/images/7ec7e0388743fcf729407516df4bc1a6.jpg
+![缺失值热力图](images/4421d863fb14014fce97c1e7184890e6.jpg)
+![相关性矩阵](images/6047c3682493439ff19cc503cc7d001b.jpg)
+![单变量分布图](images/7ec7e0388743fcf729407516df4bc1a6.jpg)
 
 💡 所有图表均为 Plotly 交互式图形，你可以在浏览器中缩放、悬停、下载为图片。
 
